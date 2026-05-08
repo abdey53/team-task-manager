@@ -30,7 +30,9 @@ function Signup() {
 
       console.log(error)
 
-      alert("Signup Failed")
+      console.log(error.response)
+
+alert(error.response?.data?.detail || "Signup Failed")
     }
   }
 
