@@ -13,7 +13,7 @@ function Projects() {
     try {
 
       await axios.post(
-        "http://127.0.0.1:8000/projects",
+        "https://team-task-manager-production-1953.up.railway.app/projects",
         {
           title,
           description,

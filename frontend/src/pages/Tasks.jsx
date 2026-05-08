@@ -17,7 +17,7 @@ function Tasks() {
     try {
 
       await axios.post(
-        "http://127.0.0.1:8000/tasks",
+        "https://team-task-manager-production-1953.up.railway.app/tasks",
         {
           title,
           description,
@@ -52,7 +52,7 @@ const fetchTasks = async () => {
   try {
 
     const response = await axios.get(
-      "http://127.0.0.1:8000/tasks"
+      "https://team-task-manager-production-1953.up.railway.app/tasks"
     )
 
     setTasks(response.data)
