@@ -13,7 +13,7 @@ function Projects() {
     try {
 
       await axios.post(
-        "https://team-task-manager-production-1953.up.railway.app/projects",
+        "https://team-task-manager-production-1953.up.railway.app/projects/",
         {
           title,
           description,

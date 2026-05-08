@@ -52,7 +52,7 @@ const fetchTasks = async () => {
   try {
 
     const response = await axios.get(
-      "https://team-task-manager-production-1953.up.railway.app/tasks"
+      "https://team-task-manager-production-1953.up.railway.app/tasks/"
     )
 
     setTasks(response.data)

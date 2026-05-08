@@ -15,7 +15,7 @@ function Login() {
     try {
 
       const response = await axios.post(
-        "https://team-task-manager-production-1953.up.railway.app/login",
+       "https://team-task-manager-production-1953.up.railway.app/login/",
         {
           email,
           password
